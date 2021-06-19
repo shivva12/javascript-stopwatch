@@ -13,7 +13,7 @@ function stopwatch(){
     runTimeCycle()
   })
   document.getElementById("stop-button").addEventListener("click", () => { currentState = "stopped" })
-  document.getElementById("reset-button").addEventListener("click", () => { currentState = 'reset' })
+  document.getElementById("reset-button").addEventListener("click", () => { currentState = 'reset'; setTime(); })
 
   runTimeCycle = () => setTimeout(setTime, 1000)
 
