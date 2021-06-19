@@ -1,0 +1,45 @@
+:root {
+  background-color: orange;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+#wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+  padding-left: 50px; padding-right: 50px;
+  padding-top: 30px; padding-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+h1 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+button{
+  background-color:transparent;
+  border: 1px solid white;
+  border-radius: 2px;
+  color: white;
+  padding-left: 40px; padding-right: 40px;
+  padding-top: 10px;padding-bottom: 10px;
+  margin: 15px;
+  transition: all 0.5s;
+  font-weight:bold;
+  font-size: medium;
+}
+
+button:hover{
+  background-color: white;
+  color: orange;
+}
+
+#time{
+  font-size:x-large;
+  font-weight: bold;
+}
